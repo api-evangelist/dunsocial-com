@@ -1,4 +1,4 @@
-# dunsocial-com
+# DunSocial
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,136 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dunsocial-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dunsocial.com/
+DunSocial is an AI-first social media management tool. It plans, writes, schedules and publishes posts to X (Twitter), LinkedIn, Instagram, Threads, Bluesky, Reddit, Pinterest, YouTube Shorts, Discord and Slack in your own brand voice. Use the web app, REST API, CLI or hosted MCP server for Claude, ChatGPT, Cursor and other AI assistants. Founded in December 2025, the company is based in Chennai, India, and offers a $20/mo plan.
+
+**Areas:** AI · Social Media · Scheduler · Marketing · Automation
+
+## DunSocial on APIs.io
+
+Everything profiled for DunSocial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dunsocial-com/](https://apis.io/providers/dunsocial-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [DunSocial API](https://apis.io/apis/dunsocial-com/dunsocial-com-api/) — DunSocial API as documented publicly: 85 operations. Contract generated from the documentation by API Evangelist (2026-11-06); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Dunsocial Com Webhooks](https://apis.io/asyncapis/dunsocial-com/dunsocial-com-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiSocialAccountsResponse](https://apis.io/schemas/dunsocial-com/dunsocial-com-get-api-social-accounts-response/)
+- [GetApiWorkspacesIdSocialAccountsResponse](https://apis.io/schemas/dunsocial-com/dunsocial-com-get-api-workspaces-id-social-accounts-response/)
+- [PatchApiDraftsIdRequest](https://apis.io/schemas/dunsocial-com/dunsocial-com-patch-api-drafts-id-request/)
+- [PostApiAiChatRequest](https://apis.io/schemas/dunsocial-com/dunsocial-com-post-api-ai-chat-request/)
+- [PostApiAiTranscribeRequest](https://apis.io/schemas/dunsocial-com/dunsocial-com-post-api-ai-transcribe-request/)
+- [PostApiMediaCompleteRequest](https://apis.io/schemas/dunsocial-com/dunsocial-com-post-api-media-complete-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dunsocial Com Context](https://apis.io/jsonld/dunsocial-com/dunsocial-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DunSocial API Rules](https://apis.io/rules/dunsocial-com/dunsocial-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dunsocial Com Authentication](https://apis.io/security/dunsocial-com/dunsocial-com-authentication/)
+- [Dunsocial Com Domain Security](https://apis.io/security/dunsocial-com/dunsocial-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dunsocial Com Plans Pricing](https://apis.io/plans/dunsocial-com/dunsocial-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dunsocial Com Rate Limits](https://apis.io/rate-limits/dunsocial-com/dunsocial-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dunsocial.com/)
+- [Documentation](https://www.dunsocial.com/docs)
+- [Getting started](https://www.dunsocial.com/faq/getting-started)
+- [API reference](https://www.dunsocial.com/api.md)
+- [Pricing](https://www.dunsocial.com/pricing)
+- [Support](https://support.dunsocial.com/)
+- [Blog](https://www.dunsocial.com/blog)
+- [Terms of service](https://www.dunsocial.com/terms)
+- [Privacy policy](https://www.dunsocial.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 60.6** — strong · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.3 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 41.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dunsocial-com/](https://apis.io/providers/dunsocial-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DunSocial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dunsocial-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
